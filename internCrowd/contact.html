@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            background-image: url(/Image/Contact.jpg);
+            width: 100%;
+            height: 100%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .head {
+            border: 2px;
+            color: white;
+            width: 600px;
+            text-align: center;
+            display: block;
+            margin: 100px auto;
+        }
+
+        .h1 {
+            font-weight: bolder;
+            font-size: 60px;
+        }
+
+        #lorem {
+            margin: -38px auto;
+        }
+
+        .info {
+            align-items: justify;
+            border-radius: 20px;
+            margin: 85px auto;
+        }
+
+        .input {
+            border-radius: 20px;
+            padding: 5px 10px;
+            width: 310px;
+        }
+
+        .area {
+            border-radius: 20px;
+            padding-left: 12px;
+            padding-top: 10px;
+        }
+
+        .btn {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            cursor: pointer;
+            border-radius: 20px;
+            padding: 5px 15px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            color: red;
+            background-color: yellow;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <h1 class="h1">CONTACT US</h1>
+        <p id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo temporibus tenetur maiores, aut sint
+            assumenda a
+            dicta quisquam, officia quibusdam repellat cum eum possimus quis ab commodi rerum repellendus culpa.</p>
+
+        <form action="noaction.php">
+            <div class="info">
+
+                <tr>
+                    <td>
+                        <input type="text" placeholder="Name" class="input">
+                    </td>
+                </tr>
+                <br><br>
+
+                <tr>
+                    <td>
+                        <input type="number" placeholder="Mobile No." class="input">
+                    </td>
+                </tr>
+                <br><br>
+
+                <tr>
+                    <td>
+                        <input type="text" placeholder="Email ID" class="input">
+                    </td>
+                </tr>
+                <br><br>
+                <tr>
+                    <br>
+                    <td>
+                        <textarea name="" id="tbox" cols="40" rows="12" placeholder="Your Message"
+                            class="area"></textarea>
+                    </td>
+                </tr>
+                <br><br>
+                <a href="#"><button class="btn">Submit</button></a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
